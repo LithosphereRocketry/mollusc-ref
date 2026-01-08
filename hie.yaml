@@ -1,0 +1,3 @@
+cradle:
+  stack:
+    component: "mollusc-ref:test:test-library"

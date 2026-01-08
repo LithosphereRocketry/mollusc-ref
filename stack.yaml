@@ -1,0 +1,15 @@
+resolver: lts-22.44
+
+extra-deps:
+- clash-ghc-1.8.3
+- clash-lib-1.8.3
+- clash-prelude-1.8.3
+- clash-prelude-hedgehog-1.8.3
+- prettyprinter-interp-0.2.0.0
+- git: https://github.com/clash-lang/clash-protocols.git
+  commit: 456a45fcf965357921f7f435d87ee6c6719d4c5f
+  subdirs:
+  - clash-protocols
+  - clash-protocols-base
+- git: https://github.com/cchalmers/circuit-notation.git
+  commit: a99969b79df6752532792fd30482b83cf3285f52
